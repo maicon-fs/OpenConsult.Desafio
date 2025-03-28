@@ -49,13 +49,13 @@ Esse arquivo define as configurações para se conectar ao servidor LDAP, como o
 ### 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/maicon-fs/OpenConsult.Desafio.git
+https://github.com/maicon-fs/desafio.git
 ```
 
 ### 2. Navegue até a pasta da solução:
 
 ```bash
-cd OpenConsult.Desafio
+cd Desafio
 ```
 
 ### 3. Inicie o container Docker com o OpenLDAP
@@ -66,7 +66,7 @@ docker-compose up -d
 ### 4. Navegue até a pasta do projeto
 
 ```bash
-cd OpenConsult.Desafio.XmlProcessor
+cd Desafio.XmlProcessor
 ```
 
 ### 5. Restaure as dependências:
