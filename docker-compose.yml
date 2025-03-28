@@ -1,0 +1,11 @@
+services:
+  openldap:
+    image: osixia/openldap
+    container_name: desafioldap
+    ports:
+      - "389:389"
+    environment:
+      LDAP_ORGANISATION: "DesafioLdap"
+      LDAP_DOMAIN: "desafio.ldap"
+      LDAP_ADMIN_PASSWORD: "1212"
+    restart: always

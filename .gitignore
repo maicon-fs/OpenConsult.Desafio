@@ -1,0 +1,24 @@
+# Arquivos de compilação
+bin/
+obj/
+
+# Arquivos de IDE e editores
+.vs/
+.vscode/
+
+# Arquivos de build
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Pacotes NuGet
+*.nupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
